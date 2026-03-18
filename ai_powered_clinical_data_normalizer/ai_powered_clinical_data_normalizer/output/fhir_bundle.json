@@ -1,0 +1,206 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "unknown",
+        "name": [
+          {
+            "text": "DELA CRUZ , MARIA CORAZON SANTOS"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-1",
+        "subject": {
+          "reference": "Patient/unknown"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J18.9",
+              "display": "Community-Acquired Pneumonia (CAP"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/confidence",
+            "valueDecimal": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-2",
+        "subject": {
+          "reference": "Patient/unknown"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J18.9",
+              "display": "Right Middle Lobe Pneumonia"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/confidence",
+            "valueDecimal": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-3",
+        "subject": {
+          "reference": "Patient/unknown"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": null,
+              "display": "Severe Dehydration"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/confidence",
+            "valueDecimal": 0.35
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-1",
+        "subject": {
+          "reference": "Patient/unknown"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "71045",
+              "display": "Chest X-ray (Diagnostic)"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/confidence",
+            "valueDecimal": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-2",
+        "subject": {
+          "reference": "Patient/unknown"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": null,
+              "display": "IV Fluid Therapy (Treatment)"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/confidence",
+            "valueDecimal": 0.35
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Claim",
+        "id": "claim-unknown",
+        "patient": {
+          "reference": "Patient/unknown"
+        },
+        "diagnosis": [
+          {
+            "sequence": 1,
+            "diagnosisCodeableConcept": {
+              "coding": [
+                {
+                  "code": "J18.9",
+                  "display": "Community-Acquired Pneumonia (CAP"
+                }
+              ]
+            }
+          },
+          {
+            "sequence": 2,
+            "diagnosisCodeableConcept": {
+              "coding": [
+                {
+                  "code": "J18.9",
+                  "display": "Right Middle Lobe Pneumonia"
+                }
+              ]
+            }
+          },
+          {
+            "sequence": 3,
+            "diagnosisCodeableConcept": {
+              "coding": [
+                {
+                  "code": null,
+                  "display": "Severe Dehydration"
+                }
+              ]
+            }
+          }
+        ],
+        "procedure": [
+          {
+            "sequence": 1,
+            "procedureCodeableConcept": {
+              "coding": [
+                {
+                  "code": "71045",
+                  "display": "Chest X-ray (Diagnostic)"
+                }
+              ]
+            }
+          },
+          {
+            "sequence": 2,
+            "procedureCodeableConcept": {
+              "coding": [
+                {
+                  "code": null,
+                  "display": "IV Fluid Therapy (Treatment)"
+                }
+              ]
+            }
+          }
+        ],
+        "supportingInfo": []
+      }
+    }
+  ]
+}

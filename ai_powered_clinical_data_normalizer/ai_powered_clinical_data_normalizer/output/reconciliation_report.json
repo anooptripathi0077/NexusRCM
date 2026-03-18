@@ -1,0 +1,10 @@
+{
+  "claim_ready": false,
+  "issue_count": 4,
+  "issues": [
+    "Unmapped diagnoses: Severe Dehydration",
+    "Unmapped procedures: IV Fluid Therapy (Treatment)",
+    "Missing supporting documents: bill copy, discharge summary, lab report",
+    "Low confidence mappings require review: Severe Dehydration, IV Fluid Therapy (Treatment)"
+  ]
+}

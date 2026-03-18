@@ -1,0 +1,67 @@
+{
+  "patient_name": "DELA CRUZ , MARIA CORAZON SANTOS",
+  "patient_id": null,
+  "diagnoses": [
+    {
+      "label": "Community-Acquired Pneumonia (CAP",
+      "code": "J18.9",
+      "code_system": "ICD-10",
+      "confidence": 0.99
+    },
+    {
+      "label": "Right Middle Lobe Pneumonia",
+      "code": "J18.9",
+      "code_system": "ICD-10",
+      "confidence": 0.99
+    },
+    {
+      "label": "Severe Dehydration",
+      "code": null,
+      "code_system": "ICD-10",
+      "confidence": 0.35
+    }
+  ],
+  "procedures": [
+    {
+      "label": "Chest X-ray (Diagnostic)",
+      "code": "71045",
+      "code_system": "CPT",
+      "confidence": 0.99
+    },
+    {
+      "label": "IV Fluid Therapy (Treatment)",
+      "code": null,
+      "code_system": "CPT",
+      "confidence": 0.35
+    }
+  ],
+  "notes": [
+    "FE",
+    "> BALANGA MEDICAL CENTER 987654",
+    "Zo Sampaguita St. St. Joseph Subdivision, San Jose, Balanga City, Bataan 2100 331190",
+    "Telephone No. (047) 237-1256 Email Add: balangamed.cc@gmail.com",
+    "(Surname) (Given) (Middle)",
+    "Address: 14 Acacia Street, Dofia Maria Subdivision, Balanga City, Bataan",
+    "Date of Birth: 05/12/1988 Age 36 sex: Female Occupation: Teacher contact No: 0917-555-0123",
+    "Nationality Filipino Religion _ Roman Catholic pic \u00ab= suc Oo",
+    "Status | Single [_|Married {Divorced [_]Widow [_]separated aeuaalle : PC C]",
+    "HMO",
+    "Father: Roberto Dela Cruz (Deceased)",
+    "Mother: Leonora Santos-Dela Cruz Spouse: Jose Maria Garcia",
+    "(Maiden Name: SANTOS) Address: 14 Acacia Street, Dofia Maria",
+    "Address : Subdivision, Balanga City",
+    "IN CASE OF EMERGENCY, NOTIFY:",
+    "Jose Maria Garcia (Husband) / 0918-555-0199 ae eee",
+    "Date Time Date Time",
+    "ee tee L}\u00a5es \u2014 yJNo 2024-05-15 09:30AM }2024-05-18 11:15AM",
+    "Results: Attending Physician Resident on Duty",
+    "Recovered Improved",
+    "d \u2018",
+    "Tranter Frio Dr. Elen P. Reyer | Dr. Merk A. Lam",
+    "Autopsy Elena P. Reyes, M.D. Mark A. Lim, M.D.",
+    "Chart Completed 2024-05-18 Date/Time 11:30 AM",
+    "PATIENT DATA SHEET",
+    "CONSENT FOR ADMISSION"
+  ],
+  "supporting_documents": []
+}

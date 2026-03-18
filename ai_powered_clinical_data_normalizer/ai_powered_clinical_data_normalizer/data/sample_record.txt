@@ -1,0 +1,11 @@
+Patient Name: Rohan Mehta
+Patient ID: P-10027
+Diagnosis: Type 2 diabetes with poor glycemic control
+Diagnosis: Hypertension
+Procedure: Complete Blood Count
+Procedure: ECG
+Supporting Document: discharge summary
+Supporting Document: lab report
+Supporting Document: bill copy
+Admitted with fatigue and elevated blood pressure.
+Discharged with medication review and follow-up advice.
